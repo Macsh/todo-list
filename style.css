@@ -1,0 +1,23 @@
+#todo {
+    border: 1px solid black;
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+}
+#done {
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid green;
+}
+#lists {
+    display: flex;
+}
+
+button {
+    margin: 5px;
+}
+
+form {
+    margin: 10px 5px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo List</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <form method="post">
+            <input type="text" id="task" placeholder="Indiquez une tache à réaliser">
+            <input type="submit">
+        </form>
+        <button id="save">Save</button>
+        <button id="load">Load</button>
+        <div id="lists">
+            <div id="todo">
+                <h2>A faire</h2>
+                <div id="todo-list"></div>
+            </div>
+            <div id="done">
+                <h2>Finie</h2>
+                <div id="done-list"></div>
+            </div>
+        </div>
+
+        <script src="script/script.js"></script>
+    </body>
+</html>
